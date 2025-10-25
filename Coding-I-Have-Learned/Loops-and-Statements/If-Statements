@@ -1,0 +1,10 @@
+temp = input("what is the current temperature? ")
+raining = input("is it raining? [y or n]: ")
+
+temp = int(temp)
+
+if (temp <= 50):
+    print("it's cold out. probably should bring a jacket.")
+    
+if (raining == 'y' or raining == 'y'):
+    print("don't forget to bring an umbrella too!")
